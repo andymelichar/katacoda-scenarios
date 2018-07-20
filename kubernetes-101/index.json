@@ -1,0 +1,27 @@
+{
+    "title": "Kubernetes 101",
+    "description": "Kubernetes is becoming more and more popular for managing containers at an enterprise scale. With this course, we'll take you step-by-step through the basics of installing, configuring, and launching apps on Kubernetes.",
+    "difficulty": "beginner",
+    "time": "1 hour",
+    "details": {
+      "steps": [{
+        "title": "Step 1 - Run Command",
+        "text": "step1.md"
+      }],
+      "intro": {
+        "text": "intro.md",
+        "credits": ""
+      },
+      "finish": {
+        "text": "finish.md"
+      }
+    },
+    "environment": {
+      "uilayout": "terminal-terminal",
+      "uimessage1": "\u001b[32mYour Interactive Bash Terminal.\u001b[m\r\n"
+    },
+    "backend": {
+      "imageid": "kubernetes-cluster"
+    }
+  }
+  
