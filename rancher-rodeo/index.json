@@ -1,0 +1,45 @@
+{
+    "pathwayTitle": "Rancher",
+    "icon": "fa-rancher",
+    "title": "Deploying Kubernetes using Rancher",
+    "description": "Learn how to deploy a Kubernetes cluster using Rancher",
+    "details": {
+        "steps": [{
+                "title": "Start Rancher",
+                "text": "step1.md"
+            },
+            {
+                "title": "Create Cluster",
+                "text": "step2.md"
+            },
+            {
+                "title": "Deploy Control Plane",
+                "text": "step3.md"
+            },
+            {
+                "title": "Access Kubectl",
+                "text": "step4.md"
+            }
+        ],
+        "intro": {
+            "text": "intro.md"
+        },
+        "finish": {
+            "text": "finish.md"
+        }
+    },
+    "environment": {
+        "showdashboard": true,
+        "dashboards": [{
+            "name": "Rancher",
+            "port": 443
+        }],
+        "uilayout": "terminal-iframe",
+        "uimessage1": "\u001b[32mYour Interactive Bash Terminal. A safe place to learn and execute commands.\u001b[m\r\n"
+    },
+    "backend": {
+        "port": 443,
+        "trainingid": "ubuntu",
+        "imageid": "ubuntu"
+    }
+}
