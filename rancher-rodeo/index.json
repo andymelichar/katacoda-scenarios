@@ -29,14 +29,15 @@
         }
     },
     "environment": {
-        "terminals": [{"name": "Terminal 2", "target": "host02"}],
         "showdashboard": true,
         "dashboards": [{
             "name": "Rancher",
             "port": 443,
             "target": "host01"
         }],
-        "uilayout": "terminal"
+        "uilayout": "terminal-terminal",
+        "uimessage1": "This is where we will run our Rancher Server",
+        "uimessage2": "This server will become a node in our cluster"
     },
     "backend": {
         "imageid": "docker-swarm",
