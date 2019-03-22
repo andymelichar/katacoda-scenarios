@@ -22,7 +22,7 @@ The Worker role tells Kubernetes which nodes should be able to receive deploymen
 
 ## Select Node Roles and Copy the Command
 
-We'll only be setting up one node for this tutorial, so we want that node to have all of the roles necessary to run a cluster. Check the boxes next to **etcd**, **Control Plane**, and **Worker**.
+We'll only be setting up one node for this tutorial, so we want that node to have all of the roles necessary to run a cluster. Ensure all three roles are selected: **etcd**, **Control Plane**, and **Worker**.
 
 Next, click the Clipboard icon next to the command that is displayed at the bottom of the page. This will copy the command to your clipboard for use in the next step.
 
