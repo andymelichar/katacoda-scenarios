@@ -2,7 +2,7 @@ With Rancher, you can initialize multiple clusters with one single central place
 
 ## Start an Instance of Rancher
 
-To start Rancher, run the command:
+To start Rancher, run the following command in ***Terminal Host 1***:
 
 `docker run -d -p 443:443 --name=rancher rancher/rancher:latest`{{execute}}
 

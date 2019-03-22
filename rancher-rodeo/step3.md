@@ -2,14 +2,12 @@ The next step is to deploy Kubernetes, in this case, we'll start by configuring 
 
 A single node instance has etcd, the Kubernetes Control Plane and a Kubernetes node to all run on the same machine. Within production this would be deployment onto multiple nodes, however, a single node is great starting place for testing and experimenting.
 
-## Configuring Node Role
+## Add Our Node to the Cluster
 
-By ticking the etcd and control plane boxes, the command to initialise the cluster at the top will change. This command will deploy the correct configuration for our single node cluster.
+Switch to the **Cluster Node** tab on the right, and paste the command you copied from the Rancher UI in the previous step. Press **Enter** on your keyboard to execute the command.
 
-## Deploy Node 
+At this point the node will pull down the required docker images, will register with Rancher and the Kubernetes cluster, and will configure itself to serve all of the roles we selected in the previous step.
 
-When you're happy with the configuration, run the command in the Katacoda Terminal window. Note, Rancher have a helpful "Copy to Clipboard" button to make this easier.
+## Watching the Node Build
 
-After running the command, the Rancher dashboard should report **1 new node has registered**. Rancher will now initalize the Kubernetes cluster.
-
-Click **Done** to view the progress of the deployment.
+Switch back to the Rancher tab
