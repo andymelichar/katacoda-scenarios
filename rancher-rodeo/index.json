@@ -29,7 +29,7 @@
         }
     },
     "environment": {
-        "terminals": [{"name": "Cluster Node", "target": "host02"}],
+        "terminals": [{"name": "Cluster Node", "target": "host02", "command": "printf '#!/bin/bash\neval \"$*\"' > /usr/bin/sudo"}],
         "showdashboard": true,
         "dashboards": [{
             "name": "Rancher",
