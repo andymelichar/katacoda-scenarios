@@ -29,7 +29,7 @@
         }
     },
     "environment": {
-        "terminals": [{"name": "Cluster Node", "target": "host02", "command": "printf '#!/bin/bash\neval \"$*\"' > /usr/bin/sudo"}],
+        "terminals": [{"name": "Cluster Node", "target": "host02", "command": "printf '#!/bin/bash\neval \"$*\"' > /usr/bin/sudo && chmod +x /usr/bin/sudo && clear && echo 'This host will become a node in our cluster'"}],
         "showdashboard": true,
         "dashboards": [{
             "name": "Rancher",
