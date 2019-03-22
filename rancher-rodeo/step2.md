@@ -11,13 +11,13 @@ Provide a friendly name for the cluster, such as `my-kubernetes-cluster`{{copy}}
 
 Rancher is going to provide us with a command to run on our nodes, which will have them join our new cluster. In order to do that, we need to tell Rancher what roles want the new nodes to have.
 
-*etcd*
+### etcd
 etcd is the main data store for Kubernetes configuration. Nodes with the etcd role will store and replicate a copy of the etcd database.
 
-*Control Plane*
+### Control Plane
 The Control plan is the workhorse of the Kubernetes cluster. It performs necessary tasks to keep the cluster functional. Nodes with the Control Plane roll will help maintain the cluster by running these necessary tasks.
 
-*Worker*
+### Worker
 The Worker role tells Kubernetes which nodes should be able to receive deployments. Nodes with the Worker role will host the resources that we add in Rancher.
 
 ## Select Node Roles and Copy the command
