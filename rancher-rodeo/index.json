@@ -33,8 +33,7 @@
         "showdashboard": true,
         "dashboards": [{
             "name": "Rancher",
-            "port": 443,
-            "target": "host01"
+            "port": 443
         }],
         "uilayout": "terminal",
         "uimessage1": "This is where we will run our Rancher Server",
