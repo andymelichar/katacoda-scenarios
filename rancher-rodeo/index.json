@@ -34,7 +34,8 @@
             "name": "Rancher",
             "port": 443,
             "target": "HOST1"
-        }]
+        }],
+        "uilayout": "terminal-terminal"
     },
     "backend": {
         "imageid": "docker-swarm"
