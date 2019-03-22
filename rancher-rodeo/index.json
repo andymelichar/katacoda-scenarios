@@ -29,13 +29,14 @@
         }
     },
     "environment": {
+        "terminals": [{"name": "Cluster Node", "target": "host02"}],
         "showdashboard": true,
         "dashboards": [{
             "name": "Rancher",
             "port": 443,
             "target": "host01"
         }],
-        "uilayout": "terminal-terminal",
+        "uilayout": "terminal",
         "uimessage1": "This is where we will run our Rancher Server",
         "uimessage2": "This server will become a node in our cluster"
     },
