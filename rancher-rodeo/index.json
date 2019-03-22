@@ -29,14 +29,16 @@
         }
     },
     "environment": {
+        "terminals": [{"name": "Cluster Node", "target": "host02"}],
         "showdashboard": true,
         "dashboards": [{
             "name": "Rancher",
             "port": 443,
             "host": "host01"
         }],
-        "uilayout": "terminal",
-        "uimessage1": "\u001b[32mRancher Host.\u001b[m\r\n"
+        "uilayout": "terminal-iframe",
+        "uimessage1": "\u001b[32mRancher Host.\u001b[m\r\n",
+        "uimessage2": "\u001b[32mCluster Node.\u001b[m\r\n"
     },
     "backend": {
         "imageid": "docker-swarm",
