@@ -33,11 +33,12 @@
         "showdashboard": true,
         "dashboards": [{
             "name": "Rancher",
-            "port": 443
+            "port": 443,
+            "host": "host01"
         }],
         "uilayout": "terminal",
-        "uimessage1": "This is where we will run our Rancher Server",
-        "uimessage2": "This server will become a node in our cluster"
+        "uimessage1": "\u001b[32mYour Interactive Bash Terminal. A safe place to learn and execute commands.\u001b[m\r\n",
+        "uimessage2": "\u001b[32mYour Interactive Bash Terminal2. A safe place to learn and execute commands.\u001b[m\r\n"
     },
     "backend": {
         "imageid": "docker-swarm",
