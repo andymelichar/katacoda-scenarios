@@ -33,14 +33,12 @@
         "dashboards": [{
             "name": "Rancher",
             "port": 443,
-            "target": "host01"
+            "target": "HOST1"
         }],
         "uilayout": "terminal-iframe",
         "uimessage1": "\u001b[32mYour Interactive Bash Terminal. A safe place to learn and execute commands.\u001b[m\r\n"
     },
     "backend": {
-        "port": 443,
-        "trainingid": "rancher",
         "imageid": "docker-swarm"
     }
 }
