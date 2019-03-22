@@ -35,7 +35,7 @@
             "port": 443,
             "target": "HOST1"
         }],
-        "uilayout": "terminal-terminal-iframe"
+        "uilayout": "terminal-terminal"
     },
     "backend": {
         "imageid": "docker-swarm",
