@@ -6,9 +6,9 @@ To start Rancher, run the command:
 
 `docker run -d -p 443:443 --name=rancher rancher/rancher:latest`{{execute}}
 
-Rancher may take one or two minutes to start. You can view the boot process with `docker logs rancher`{{execute}}
+Rancher may take one or two minutes to start. You can view the boot process with `docker logs rancher`{{execute HOST1}}
 
-Once started, you can view the Rancher dashboard at <a href="https://[[HOST_SUBDOMAIN]]-443-[[KATACODA_HOST]].environments.katacoda.com" target='_blank'>https://[[HOST_SUBDOMAIN]]-443-[[KATACODA_HOST]].environments.katacoda.com</a> - this link will show a blank page until the Rancher server finishes booting up. Once it is booted you can continue to the next step.
+Once started, you can view the Rancher dashboard at <a href="https://[[HOST1_SUBDOMAIN]]-443-[[KATACODA_HOST1]].environments.katacoda.com" target='_blank'>https://[[HOST1_SUBDOMAIN]]-443-[[KATACODA_HOST1]].environments.katacoda.com</a> - this link will show a blank page until the Rancher server finishes booting up. Once it is booted you can continue to the next step.
 
 **Note:** Depending on how many times/when you refresh, the following two tasks may appear in reverse order. You may also be asked for a current password on the password set page, in which case the current password is **admin**
 

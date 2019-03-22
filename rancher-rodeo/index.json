@@ -40,7 +40,7 @@
     },
     "backend": {
         "port": 443,
-        "trainingid": "ubuntu",
-        "imageid": "ubuntu"
+        "trainingid": "rancher",
+        "imageid": "docker-swarm"
     }
 }

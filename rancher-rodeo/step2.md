@@ -20,7 +20,7 @@ The Control plan is the workhorse of the Kubernetes cluster. It performs necessa
 ### Worker
 The Worker role tells Kubernetes which nodes should be able to receive deployments. Nodes with the Worker role will host the resources that we add in Rancher.
 
-## Select Node Roles and Copy the command
+## Select Node Roles and Copy the Command
 
 We'll only be setting up one node for this tutorial, so we want that node to have all of the roles necessary to run a cluster. Check the boxes next to **etcd**, **Control Plane**, and **Worker**.
 
